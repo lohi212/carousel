@@ -6,23 +6,25 @@
   object-fit: cover;
 }
 
-.prev-button {
-  
+.prev-button { 
   top: 50%;
+  left: 0;
 }
 
 .next-button {
-  
+  top: 50%;
+  right: 0;
 }
 
 .button-container {
   position: absolute;
+  z-index: 9;
 }
 
 .carousel-container {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .slide {
